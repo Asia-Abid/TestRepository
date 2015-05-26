@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/scrollView"
+    android:layout_weight="0.05" >
+<LinearLayout
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="Enter URL u Want to load:"
+        android:id="@+id/textView6"
+        android:layout_weight="0.05" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/enterUrlTxt"
+        android:layout_weight="0.05" />
+
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Go"
+        android:id="@+id/goBtn"
+        android:layout_weight="0.05" />
+
+    <WebView
+        android:layout_width="match_parent"
+        android:layout_height="341dp"
+        android:id="@+id/testWebView"
+        android:layout_weight="0.51" />
+</LinearLayout>
+    </ScrollView>

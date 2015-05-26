@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.debud.admin.spinnerdatabase" >
+    <uses-permission android:name="android.permission.CAMERA"> </uses-permission>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"> </uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"> </uses-permission>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"> </uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.SET_ALARM"/>
+    <uses-permission android:name="android.permission.SEND_SMS"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+
+        </activity>
+        <activity
+            android:name=".RadioGroupActivity"
+            android:label="@string/app_name" >
+
+        </activity>
+        <activity
+            android:name=".ImageActivity"
+            android:label="@string/app_name" >
+
+        </activity>
+        <activity
+            android:name=".InternalImageActivity"
+            android:label="@string/app_name" >
+
+        </activity>
+        <activity
+            android:name=".WelcomeActivity"
+            android:label="@string/app_name" >
+
+        </activity>
+        <activity
+            android:name=".GridViewMain"
+            android:label="@string/app_name" >
+
+        </activity>
+        <activity
+            android:name=".CameraActivity"
+            android:label="@string/app_name" >
+
+        </activity>
+        <activity
+            android:name=".GpsMainActivity"
+            android:label="@string/app_name" >
+
+
+        </activity>
+        <activity
+            android:name=".ConnectionTestActivity"
+            android:label="@string/app_name" >
+
+
+        </activity>
+        <activity
+            android:name=".PractiseActivity"
+            android:label="@string/app_name" >
+
+
+        </activity>
+        <activity
+            android:name=".FragmentsTabs"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+        <activity
+            android:name=".FileSampleActivity"
+            android:label="@string/app_name" >
+
+
+        </activity>
+        <activity
+            android:name=".Notification_Rev"
+            android:label="@string/app_name" >
+
+        </activity>
+        <activity
+            android:name=".Notification_Send"
+            android:label="@string/app_name" >
+
+        </activity>
+        <activity
+            android:name=".ConnectivityCheckActivty"
+            android:label="@string/app_name" >
+
+        </activity>
+
+      
+
+        <activity
+            android:name=".Remainder_Sent"
+            android:label="@string/app_name" >
+
+        </activity>
+        <activity
+            android:name=".SmsActivity"
+            android:label="@string/app_name" >
+
+        </activity>
+        <activity
+            android:name=".WifiMainActivity"
+            android:label="@string/app_name" >
+
+        </activity>
+        <activity
+            android:name=".ArrayImageInsert"
+            android:label="@string/app_name" >
+
+        </activity>
+
+        <activity
+            android:name=".ImageMainActivity"
+            android:label="@string/app_name" >
+
+
+        </activity>
+        <activity
+            android:name=".ListDbActivity"
+            android:label="@string/app_name" >
+
+        </activity>
+        <activity
+            android:name=".CustomDataBaseActivity"
+            android:label="@string/app_name" >
+
+        </activity>
+        <activity
+            android:name=".ListViewArray"
+            android:label="@string/app_name" >
+
+        </activity>
+        <activity
+            android:name=".CustomListActivity"
+            android:label="@string/app_name" >
+
+        </activity>
+        <activity
+            android:name=".ImageListActivity"
+            android:label="@string/app_name" >
+
+        </activity>
+
+    </application>
+
+</manifest>
